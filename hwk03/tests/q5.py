@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> (responses_from_1985+responses_from_204) == 4346
+          >>> (responses_from_1985+responses_from_2004) == 4346
           True
           """,
           'hidden': False,
