@@ -1,2 +1,2 @@
 # social-networks-connector
-Fall 2016, Instructor: Dennis Feehan
+Fall 2017, Instructor: Dennis Feehan
