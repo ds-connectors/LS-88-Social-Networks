@@ -1,0 +1,15 @@
+{
+  "name": "LS88 Lab 02",
+  "endpoint": "cal/ls88_1/fa17/lab02",
+  "src": [
+     "lab02.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
