@@ -1,0 +1,16 @@
+{
+  "name": "LS88 Homework 03",
+  "endpoint": "cal/ls88_1/fa17/hwk03",
+  "src": [
+     "hwk_friendship_paradox.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "locking",
+      "backup"
+  ]
+}
