@@ -6,36 +6,36 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> np.mean(add_health_msmts['avg_degree'])
-          7.231034672208172
+          >>> str(round(np.mean(add_health_msmts['avg_degree']), 5))
+          '7.23103'
           """,
           'hidden': False
         },
         {
           'code': r"""
-          >>> np.mean(add_health_msmts['avg_neighbor_degree'])
-          8.7959161086127811
+          >>> str(round(np.mean(add_health_msmts['avg_neighbor_degree']), 5))
+          '8.79592'
           """,
           'hidden': False
         },
         {
           'code': r"""
-          >>> np.mean(add_health_msmts['frac_lt_neighbors']) 
-          0.68504134158396413
+          >>> str(round(np.mean(add_health_msmts['frac_lt_neighbors']), 5))
+          '0.68504'
           """,
           'hidden': False
         },
         {
           'code': r"""
-          >>> np.corrcoef(add_health_msmts['avg_degree'], add_health_msmts['avg_neighbor_degree'])[0,1] 
-          0.98938951260142327
+          >>> str(round(np.corrcoef(add_health_msmts['avg_degree'], add_health_msmts['avg_neighbor_degree'])[0,1], 5)) 
+          '0.98939'
           """,
           'hidden': False
         },
         {
           'code': r"""
-          >>> np.corrcoef(add_health_msmts['avg_neighbor_degree'], add_health_msmts['frac_lt_neighbors'])[0,1]
-          0.030922800711871038
+          >>> str(round(np.corrcoef(add_health_msmts['avg_neighbor_degree'], add_health_msmts['frac_lt_neighbors'])[0,1], 5))
+          '0.03092'
           """,
           'hidden': False
         },         
