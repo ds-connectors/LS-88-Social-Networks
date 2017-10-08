@@ -6,15 +6,15 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> frac_degree_lt_neighbors(add_health_networks[3])
-          0.70462633451957291
+          >>> str(round(frac_degree_lt_neighbors(add_health_networks[3]), 4))
+          '0.7046'
           """,
           'hidden': False
         },
         {
           'code': r"""
-          >>> frac_degree_lt_neighbors(add_health_networks[30])
-          0.68175765645805597
+          >>> str(round(frac_degree_lt_neighbors(add_health_networks[30]), 4))
+          '0.6818'
           """,
           'hidden': False
         }                
