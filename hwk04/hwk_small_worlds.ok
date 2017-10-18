@@ -1,0 +1,16 @@
+{
+  "name": "LS88 Homework 04",
+  "endpoint": "cal/ls88_1/fa17/hwk04",
+  "src": [
+     "hwk_small_worlds.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "locking",
+      "backup"
+  ]
+}
