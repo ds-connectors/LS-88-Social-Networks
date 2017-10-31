@@ -28,7 +28,7 @@ test = {
         {
           'code': r"""
           >>> attribute_to_table(official_congress_twitter, 'party').where('node_id', are.equal_to(402719755)).column('party')[0]
-          'Democrat'
+          'Republican'
           """,
           'hidden': False
         },                
