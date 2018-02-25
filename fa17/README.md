@@ -1,6 +1,8 @@
 # social-networks-connector
 Fall 2017, Instructor: Dennis Feehan
 
+[Website](http://dennisfeehan.org/teaching/2017fa_ls88.html)
+
 # Overview
 In this connector, we will explore the science of social networks. This interdisciplinary subject focuses on measuring, modeling, and understanding the different types of connections and interactions between people. Social networks come in many different types and sizes: there are small, tightly-knit networks like the members of a family; and there are also massive, loosely connected networks like the users of Twitter.
 
